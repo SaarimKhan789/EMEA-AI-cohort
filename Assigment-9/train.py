@@ -67,14 +67,3 @@ if images:
                 f"{best_model.names[cls]} : {conf:.2f}"
             )
 
-print("\nAssignment Requirements Covered:")
-print("✅ Pretrained YOLOv8")
-print("✅ COCO128 Dataset")
-print("✅ Fine-Tuning")
-print("✅ Precision")
-print("✅ Recall")
-print("✅ mAP50")
-print("✅ mAP50-95")
-print("✅ Bounding Boxes")
-print("✅ Class Labels")
-print("✅ Confidence Scores")
